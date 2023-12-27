@@ -1,0 +1,15 @@
+{
+  "name": "backend_first_app",
+  "version": "1.0.0",
+  "description": "Simple backend to learn primary concepts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Tarunaksha Bhattacharya",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}

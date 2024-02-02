@@ -1,0 +1,19 @@
+HANDLING API DATA
+
+DATA FETCHING ROUTES
+
+GET /users/ -> res.send (ssr html)
+for handling the browser clients
+
+GET /api/users/ -> res.json
+for handling the requests from apps, iot devices etc and use csr
+
+GET /api/users/1 -> get the user with id 1
+GET /api/users/2 -> get the user with id 2
+dynamic path parameters -> GET /api/users/:id 
+:id -> variable | dynamic
+
+
+GET /users/ -> res.json
+GET /users/ -> res.json
+GET /users/ -> res.json
